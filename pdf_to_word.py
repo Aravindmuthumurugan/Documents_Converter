@@ -14,7 +14,7 @@ def pdf_to_text(pdf_file, output_txt_file):
     # Initialize a variable to store the extracted text
     text = ""
 
-    # Loop through each page
+    # Loop through each page aafcsa
     for page_num in range(document.page_count):
         page = document[page_num]
         text += page.get_text("text")
